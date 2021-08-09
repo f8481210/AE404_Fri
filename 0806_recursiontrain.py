@@ -8,8 +8,8 @@ from bs4 import BeautifulSoup
 import time
 
 
-#theDay = input("哪一天要搭台鐵(格式:2020/02/21)?")
-#timeSelect = input("想搭乘什麼時間(格式:06:30，24小時制)?")
+theDay = input("哪一天要搭台鐵(格式:2020/02/21)?")
+timeSelect = input("想搭乘什麼時間(格式:06:30，24小時制)?")
 
 def search(theDay, timeSelect):
     #我要傳遞的資料
